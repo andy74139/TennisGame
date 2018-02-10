@@ -51,6 +51,7 @@ namespace MyTennisGame
             _Score = _TennisGame.Score();
             ScoreShouldBe("Forty Love");
         }
+
         private void ScoreShouldBe(string expected)
         {
             Assert.AreEqual(expected, _Score);
